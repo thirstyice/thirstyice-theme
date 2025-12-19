@@ -1,0 +1,21 @@
+{
+  "name": "thirstyice-theme",
+  "displayName": "thirstyice-theme",
+  "description": "Thirstyice's theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Thirstyice",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thirstyice-color-theme.json"
+      }
+    ]
+  }
+}
